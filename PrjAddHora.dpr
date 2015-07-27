@@ -1,0 +1,15 @@
+program PrjAddHora;
+
+uses
+  Forms,
+  untPrincipal in 'untPrincipal.pas' {Form1},
+  uAddHora in 'uAddHora.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
